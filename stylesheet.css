@@ -1,0 +1,245 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /* box-sizing: border-box; */
+}
+
+nav {
+    border-bottom: 2px solid rgb(75, 64, 35);
+    box-shadow: 0 2px 20px rgb(68, 55, 28);
+    width: 100%;
+    height: 75px;
+    /* line height: 60px; */
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logoimg {
+    width: 100px;
+    height: 80px;
+    margin-left: 50px;
+}
+
+ul {
+    margin: 0px;
+    margin-top: 30px;
+
+}
+
+ul li {
+    float: left;
+    padding: 0px 10px;
+    list-style: none;
+    font-weight: bold;
+    font-size: large;
+
+}
+
+ul li a:hover {
+    color: rgb(14, 7, 7);
+    background-color: rgb(240, 242, 245);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.header {
+    background-image: url(images/burger.jpg);
+    background-position: center;
+    background-size: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-color: rgb(240, 221, 161);
+}
+
+.content {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    color: rgb(239, 239, 241);
+    font-size: large;
+    justify-content: center;
+    text-align: center;
+}
+
+button {
+    border-radius: 6px;
+    color: black;
+    font-weight: bold;
+    background-color: white;
+    padding: 6px 10px 6px 10px;
+}
+
+button:hover {
+    color: white;
+    background-color: black;
+    transition: 3s;
+}
+
+.box {
+    border-radius: 50px 0px 50px 0px;
+    margin-right: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* About Us */
+.about {
+    top: 40%;
+    left: 20%;
+    color: rgb(239, 239, 241);
+    font-size: large;
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.desimg>img {
+    margin: 25px 120px 0px 0px;
+    float: right;
+    width: 40%;
+    height: 300px;
+    border-radius: 0px 20px 0px 20px;
+
+}
+
+.des {
+    float: left;
+    /* width: 30%; */
+    margin: 20px 100px;
+    /*  color: aliceblue; */
+    background-color: rgb(192, 215, 228);
+    padding: 50px;
+    outline: 3px dashed rgb(107, 155, 211);
+    outline-offset: -30px;
+    text-align: center;
+    border-radius: 30px 0px 30px 0px;
+
+}
+
+
+.menu {
+    color: white;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+.special {
+    padding: 20px;
+
+}
+
+.para {
+    color: white;
+    text-align: center;
+}
+
+
+/* Food Menu */
+.menuitems {
+    display: flex;
+    justify-content: space-around;
+}
+
+.list_1,
+.list_2 {
+    width: 49%;
+    /* border: 1px solid red; */
+    /* height: 700px; */
+    float: right;
+
+
+}
+
+.list_item {
+    display: flex;
+    width: 100%;
+    float: left;
+    padding: 10px;
+
+
+}
+
+.price {
+    color: white;
+    margin-left: 180px;
+}
+
+.footer {
+
+    width: 20%;
+    color: aliceblue;
+    float: right;
+
+}
+
+footer {
+    background-color: rgb(2, 1, 1);
+    height: 40px;
+}
+
+/* book table */
+
+.container_bt {
+    /* display: flex; */
+    width: 100%;
+
+}
+
+.form {
+    width: 40%;
+    /* border: 2px solid yellow; */
+    float: left;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.img_bt {
+    width: 40%;
+    /* border: 2px solid yellow; */
+    float: right;
+    margin: 50px 50px 0px 0px;
+}
+
+.form_1 {
+    padding: 10px;
+    margin: 10px;
+}
+
+.form-field {
+    padding: 10px;
+
+}
+
+input {
+    height: 30px;
+    border-radius: 4px;
+    width: 90%;
+}
+
+.btn {
+    margin: 20px 40px 0px 130px;
+    padding: 10px;
+
+}
+
+
+.footer {
+    width: 20%;
+    color: aliceblue;
+
+
+}
+
+footer {
+    background-color: rgb(2, 1, 1);
+    height: 40px;
+}
